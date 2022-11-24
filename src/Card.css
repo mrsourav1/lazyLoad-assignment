@@ -1,0 +1,42 @@
+.main{
+    height: 50vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(191, 248, 248);
+}
+
+.card{
+    display: flex;
+    justify-content: space-around;
+    height: 350px;
+    width: 500px;
+    max-width: 500px;
+    border: 1px solid rgb(2, 2, 27); 
+    background-color: rgb(244, 133, 133);
+    color: aliceblue;
+    border-radius: 10px;
+}
+
+.right_side{
+    text-align: center;
+    width: 60%;
+}
+
+.name{
+    border-bottom: 1px solid black;
+    text-transform: uppercase;
+}
+
+.left_side{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.image{
+    height: 120px;
+    border-radius: 50%;
+    background-color: azure;
+}
+
